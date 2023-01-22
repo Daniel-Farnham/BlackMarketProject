@@ -8,7 +8,7 @@
     {squarespace-headers}
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
-    <p> hello world! <p>
+    <p class="test"> hello world! <p>
     <div class="site-container">
 
       <header class="site-header">
@@ -18,7 +18,7 @@
         <!-- site title or logo -->
         {.section website}
           <h1 class="site-title-heading" data-content-field="site-title">
-            <a href="/" class="site-title-link">{siteTitle}</a>
+            <a href="/" class="site-title-link">{website.siteTitle}</a>
           </h1>
         {.end}
       </header>
