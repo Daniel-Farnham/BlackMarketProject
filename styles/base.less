@@ -2,6 +2,11 @@
 /* CSS pre-processing by {less}. http://lesscss.org/
 ***************************************************/
 
+/* Extra Assets 
+***************************************************/
+  
+//@import url(//db.onlinewebfonts.com/c/726928c52ecaa80f68c70a2476abb32c?family=Grifinito+L+Medium);
+
 
 
 /* General syles
@@ -13,6 +18,7 @@ body {
     "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   font-size: 100%;
+  background-color: #131313;
   font-weight: normal;
 }
 
@@ -34,9 +40,6 @@ body {
   }
 }
 
-.test {
-  color: blue; 
-}
 
 .site-header {
   margin-bottom: 4vw;
@@ -52,6 +55,7 @@ body {
 
 .site-navigation-list {
   padding: 0;
+  display: flex; 
   background-color: green;
   margin: auto; 
   text-align: center;
@@ -59,13 +63,19 @@ body {
 
 .site-navigation-item {
   display: inline-block;
-  font-size: 87.5%;
+  
+  justify-content: space-evenly;
+  font-family: "Inter";
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 80%;
   margin: auto; 
-  padding: 1vh; 
+  
   
 
   & + .site-navigation-item {
     margin-left: 1em;
+    
   }
 
   a {
@@ -88,6 +98,7 @@ body {
   .site-title-link {
     color: #111;
     font-weight: 400;
+    font-family: 'GrifinitoLMedium';
     text-decoration: none;
   }
 }
@@ -129,5 +140,7 @@ body.collection-type-blog.view-list {
 @media screen and (max-width: 640px) {
   @import 'sqs-grid-breaker';
 }
+
+
 
 
