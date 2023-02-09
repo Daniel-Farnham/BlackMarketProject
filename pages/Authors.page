@@ -1,2 +1,17 @@
+<!DOCTYPE html> 
 
-<h1>Hello my name is Daniel<\h1>
+
+<html> 
+
+<body>
+
+  <h1 class="authors-page">Hello my name is Daniel </h1>
+  <h2 class="authors-page">Hi its me again but smaller </h2>
+
+
+</body> 
+
+
+</html>
+
+
