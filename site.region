@@ -21,9 +21,9 @@
 
         <!-- site title or logo -->
         {.section website}
-          <h1 class="site-title-heading" data-content-field="site-title">
+          <!-- <h1 class="site-title-heading" data-content-field="site-title">
             <a href="/" class="site-title-link">{website.siteTitle}</a>
-          </h1>
+          </h1> --!>
         {.end}
       </header>
 
