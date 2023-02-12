@@ -4,9 +4,50 @@
 
 <div class="welcome-text"> 
     <h1 class= "web-title">BLACK MARKET
-    <p class= "web-subtitle">INSIDE THE BATTLE TO SAVE THE WORLD's WILDLIFE</p>
+        <p class= "web-subtitle">INSIDE THE BATTLE TO SAVE THE WORLD'S WILDLIFE
+                <?xml version="1.0" encoding="UTF-8"?>
+            <svg id="line" data-name="line" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 333 8.12">
+            <defs>
+                <style>
+                .cls-1 {
+                    fill: none;
+                    stroke: url(#linear-gradient);
+                    stroke-linecap: round;
+                    stroke-linejoin: round;
+                    stroke-width: 2px;
+                }
+
+                .cls-2 {
+                    fill: url(#linear-gradient-2);
+                }
+                </style>
+                <linearGradient id="linear-gradient" x1="0" y1="4.06" x2="334" y2="4.06" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#b81b53"/>
+                <stop offset=".12" stop-color="#c32276"/>
+                <stop offset=".29" stop-color="#d02a9e"/>
+                <stop offset=".42" stop-color="#d830b7"/>
+                <stop offset=".5" stop-color="#dc32c1"/>
+                <stop offset=".58" stop-color="#dc31bd"/>
+                <stop offset=".65" stop-color="#de2eb2"/>
+                <stop offset=".72" stop-color="#e129a0"/>
+                <stop offset=".79" stop-color="#e52387"/>
+                <stop offset=".86" stop-color="#eb1a66"/>
+                <stop offset=".92" stop-color="#f1103e"/>
+                <stop offset=".98" stop-color="#f9030f"/>
+                <stop offset="1" stop-color="#fc0000"/>
+                <stop offset="1" stop-color="#ff931e"/>
+                </linearGradient>
+                <linearGradient id="linear-gradient-2" x1="0" x2="334" xlink:href="#linear-gradient"/>
+            </defs>
+            <line class="cls-1" x1="329.14" y1="4.06" x2="1" y2="4.06"/>
+            <path class="cls-2" d="m328.94,0c2.24,0,4.06,1.82,4.06,4.06s-1.82,4.06-4.06,4.06-4.06-1.82-4.06-4.06,1.82-4.06,4.06-4.06Z"/>
+            </svg>
+        </p>
     </h1>
 </div> 
+
+
+
 
 
 </body> 
