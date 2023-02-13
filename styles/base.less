@@ -124,6 +124,8 @@ body.homepage {
     }
   }
 
+/* Welcome Text */ 
+
   .welcome-text {
    display: grid; 
    min-height: 80vh; 
@@ -159,8 +161,48 @@ body.homepage {
   //border-color: green; 
  }
 
- 
-  
+/* Introduction */ 
+
+img.introduction {
+  height: 300px;
+  border-radius: 8.5px;
+}
+
+p.introduction {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.introduction {
+  position: relative; 
+  top: 100px; 
+  display: flex; 
+  width: 60vw; 
+  margin: 0 auto; 
+}
+
+.introduction-text {
+  margin-left: 40px; 
+  margin-top: 0;
+}
+
+/* Responsive for Introduction */ 
+
+@media screen and (max-width: 1500px) {
+  .introduction {
+     flex-wrap: wrap;
+  }
+
+  .introduction-text {
+     margin-left: 0px;
+     margin-top: 40px;
+     min-width: 450px;
+  } 
+
+}
+
+
 }
 
 
