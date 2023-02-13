@@ -58,42 +58,8 @@
 <div class="quote-section"> 
     <h1 class="quote"> BLACK MARKET IS AN EXTRAORDINARILY THOROUGH INVESTIGATION INTO THE WILDLIFE TRADE THROUGH ASIA. 
         <p> Jane Goodall </p>
-            <?xml version="1.0" encoding="UTF-8"?>
-        <svg id="vertical-line" data-name="vertical-line" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8.12 333">
-        <defs>
-            <style>
-            .cls-1 {
-                fill: url(#linear-gradient);
-            }
-
-            .cls-2 {
-                fill: none;
-                stroke: url(#linear-gradient);
-                stroke-linecap: round;
-                stroke-linejoin: round;
-                stroke-width: 2px;
-            }
-            </style>
-            <linearGradient id="linear-gradient" x1="4.06" y1="0" x2="4.06" y2="334" gradientUnits="userSpaceOnUse">
-            <stop offset="0" stop-color="#b81b53"/>
-            <stop offset=".12" stop-color="#c32276"/>
-            <stop offset=".29" stop-color="#d02a9e"/>
-            <stop offset=".42" stop-color="#d830b7"/>
-            <stop offset=".5" stop-color="#dc32c1"/>
-            <stop offset=".58" stop-color="#dc31bd"/>
-            <stop offset=".65" stop-color="#de2eb2"/>
-            <stop offset=".72" stop-color="#e129a0"/>
-            <stop offset=".79" stop-color="#e52387"/>
-            <stop offset=".86" stop-color="#eb1a66"/>
-            <stop offset=".92" stop-color="#f1103e"/>
-            <stop offset=".98" stop-color="#f9030f"/>
-            <stop offset="1" stop-color="#fc0000"/>
-            <stop offset="1" stop-color="#ff931e"/>
-            </linearGradient>
-        </defs>
-        <line class="cls-2" x1="4.06" y1="329.14" x2="4.06" y2="1"/>
-        <path class="cls-1" d="m8.12,328.94c0,2.24-1.82,4.06-4.06,4.06s-4.06-1.82-4.06-4.06,1.82-4.06,4.06-4.06,4.06,1.82,4.06,4.06Z"/>
-        </svg>
+        
+           
     </h1>
 </div> 
 
