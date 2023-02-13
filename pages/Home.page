@@ -56,12 +56,33 @@
 </div> 
 
 <div class="quote-section"> 
-    <h1 class="quote"> BLACK MARKET IS AN EXTRAORDINARILY THOROUGH INVESTIGATION INTO THE WILDLIFE TRADE THROUGH ASIA. </h1>
-    <p class="quote-author"> Jane Goodall </p>
-        
-           
-    
+    <h1 class="quote"> BLACK MARKET IS AN EXTRAORDINARILY THOROUGH INVESTIGATION INTO THE WILDLIFE TRADE THROUGH ASIA. 
+        <p class="quote-author"> Jane Goodall </p>
+    </h1> 
 </div> 
+
+<div class="chapter-list"> 
+    <p class="chapter-num">chapter 1 
+        <h3 class="chapter-title">THE WAR ON NATURE </h3>
+    </p>
+    <p class="chapter-num">chapter 2
+        <h3 class="chapter-title">THE CULTURE OF KILLINGS </h3>
+    </p>
+    <p class="chapter-num">chapter 3 
+        <h3 class="chapter-title">THE UNDERGROUND CHANNELS </h3>
+    </p>
+    <p class="chapter-num">chapter 4 
+        <h3 class="chapter-title">COUNTDOWN TO EXTINCTION </h3>
+    </p>
+    <p class="chapter-num">chapter 5 
+        <h3 class="chapter-title">CULTIVATING HOPE </h3>
+    </p>
+    <p class="chapter-num">chapter 6 
+        <h3 class="chapter-title">THE FUTURE </h3>
+    </p>
+</div>
+
+<div class=""
 
 
 
