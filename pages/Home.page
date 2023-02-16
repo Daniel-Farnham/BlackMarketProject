@@ -2,87 +2,85 @@
 
 <body>
 
-<div class="welcome-text"> 
-    <h1 class= "web-title">BLACK MARKET
-        <p class= "web-subtitle">INSIDE THE BATTLE TO SAVE THE WORLD'S WILDLIFE
-                <?xml version="1.0" encoding="UTF-8"?>
-            <svg id="line" data-name="line" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 333 8.12">
-            <defs>
-                <style>
-                .cls-1 {
-                    fill: none;
-                    stroke: url(#linear-gradient);
-                    stroke-linecap: round;
-                    stroke-linejoin: round;
-                    stroke-width: 2px;
-                }
+    <div class="welcome-text"> 
+        <h1 class= "web-title">BLACK MARKET
+            <p class= "web-subtitle">INSIDE THE BATTLE TO SAVE THE WORLD'S WILDLIFE
+                    <?xml version="1.0" encoding="UTF-8"?>
+                <svg id="line" data-name="line" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 333 8.12">
+                <defs>
+                    <style>
+                    .cls-1 {
+                        fill: none;
+                        stroke: url(#linear-gradient);
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 2px;
+                    }
 
-                .cls-2 {
-                    fill: url(#linear-gradient-2);
-                }
-                </style>
-                <linearGradient id="linear-gradient" x1="0" y1="4.06" x2="334" y2="4.06" gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#b81b53"/>
-                <stop offset=".12" stop-color="#c32276"/>
-                <stop offset=".29" stop-color="#d02a9e"/>
-                <stop offset=".42" stop-color="#d830b7"/>
-                <stop offset=".5" stop-color="#dc32c1"/>
-                <stop offset=".58" stop-color="#dc31bd"/>
-                <stop offset=".65" stop-color="#de2eb2"/>
-                <stop offset=".72" stop-color="#e129a0"/>
-                <stop offset=".79" stop-color="#e52387"/>
-                <stop offset=".86" stop-color="#eb1a66"/>
-                <stop offset=".92" stop-color="#f1103e"/>
-                <stop offset=".98" stop-color="#f9030f"/>
-                <stop offset="1" stop-color="#fc0000"/>
-                <stop offset="1" stop-color="#ff931e"/>
-                </linearGradient>
-                <linearGradient id="linear-gradient-2" x1="0" x2="334" xlink:href="#linear-gradient"/>
-            </defs>
-            <line class="cls-1" x1="329.14" y1="4.06" x2="1" y2="4.06"/>
-            <path class="cls-2" d="m328.94,0c2.24,0,4.06,1.82,4.06,4.06s-1.82,4.06-4.06,4.06-4.06-1.82-4.06-4.06,1.82-4.06,4.06-4.06Z"/>
-            </svg>
+                    .cls-2 {
+                        fill: url(#linear-gradient-2);
+                    }
+                    </style>
+                    <linearGradient id="linear-gradient" x1="0" y1="4.06" x2="334" y2="4.06" gradientUnits="userSpaceOnUse">
+                    <stop offset="0" stop-color="#b81b53"/>
+                    <stop offset=".12" stop-color="#c32276"/>
+                    <stop offset=".29" stop-color="#d02a9e"/>
+                    <stop offset=".42" stop-color="#d830b7"/>
+                    <stop offset=".5" stop-color="#dc32c1"/>
+                    <stop offset=".58" stop-color="#dc31bd"/>
+                    <stop offset=".65" stop-color="#de2eb2"/>
+                    <stop offset=".72" stop-color="#e129a0"/>
+                    <stop offset=".79" stop-color="#e52387"/>
+                    <stop offset=".86" stop-color="#eb1a66"/>
+                    <stop offset=".92" stop-color="#f1103e"/>
+                    <stop offset=".98" stop-color="#f9030f"/>
+                    <stop offset="1" stop-color="#fc0000"/>
+                    <stop offset="1" stop-color="#ff931e"/>
+                    </linearGradient>
+                    <linearGradient id="linear-gradient-2" x1="0" x2="334" xlink:href="#linear-gradient"/>
+                </defs>
+                <line class="cls-1" x1="329.14" y1="4.06" x2="1" y2="4.06"/>
+                <path class="cls-2" d="m328.94,0c2.24,0,4.06,1.82,4.06,4.06s-1.82,4.06-4.06,4.06-4.06-1.82-4.06-4.06,1.82-4.06,4.06-4.06Z"/>
+                </svg>
+            </p>
+        </h1>
+    </div> 
+
+    <div class="introduction"> 
+        <img class="intro-photo" src="assets/Landing_Page2-2.jpg" alt="man holding pagolin">
+        <p class="introduction-text"> Twenty years ago, journalist and author <span class="gradient-word"> Ben Davies </span> together with photographers <span class="gradient-word"> Adam Oswell</span> set out to investigate the illegal wildlife trade in Asia. It was a journey that took them from the great national parks of India to the lush jungles and markets on the China-Myanmar border. Across the region they found tiger parts openly for sale, Asiatic black bears in crush cages being farmed for their bile and critically endangered pangolins being consumed in restaurants. The global trade in wildlife was estimated to be worth over $6 billion a year, making it one of the largest illicit businesses after drugs, human trafficking and weapons. Determined to bring the enormity of the problem to the world’s attention, they did not realise just how prescient their work would be. </p>
+    </div>
+
+    <div class="question"> 
+        <p>Why do this?</p>
+    </div> 
+
+    <div class="quote-section"> 
+        <h1 class="quote"> BLACK MARKET IS AN EXTRAORDINARILY THOROUGH INVESTIGATION INTO THE WILDLIFE TRADE THROUGH ASIA. 
+            <p class="quote-author"> Jane Goodall </p>
+        </h1> 
+    </div> 
+
+    <div class="chapter-list"> 
+        <p class="chapter-num">chapter 1 
+            <h3 class="chapter-title">THE WAR ON NATURE </h3>
         </p>
-    </h1>
-</div> 
-
-<div class="introduction"> 
-    <img class="intro-photo" src="assets/Landing_Page2-2.jpg" alt="man holding pagolin">
-    <p class="introduction-text"> Twenty years ago, journalist and author <span class="gradient-word"> Ben Davies </span> together with photographers <span class="gradient-word"> Adam Oswell</span> set out to investigate the illegal wildlife trade in Asia. It was a journey that took them from the great national parks of India to the lush jungles and markets on the China-Myanmar border. Across the region they found tiger parts openly for sale, Asiatic black bears in crush cages being farmed for their bile and critically endangered pangolins being consumed in restaurants. The global trade in wildlife was estimated to be worth over $6 billion a year, making it one of the largest illicit businesses after drugs, human trafficking and weapons. Determined to bring the enormity of the problem to the world’s attention, they did not realise just how prescient their work would be. </p>
-</div>
-
-<div class="question"> 
-    <p>Why do this?</p>
-</div> 
-
-<div class="quote-section"> 
-    <h1 class="quote"> BLACK MARKET IS AN EXTRAORDINARILY THOROUGH INVESTIGATION INTO THE WILDLIFE TRADE THROUGH ASIA. 
-        <p class="quote-author"> Jane Goodall </p>
-    </h1> 
-</div> 
-
-<div class="chapter-list"> 
-    <p class="chapter-num">chapter 1 
-        <h3 class="chapter-title">THE WAR ON NATURE </h3>
-    </p>
-    <p class="chapter-num">chapter 2
-        <h3 class="chapter-title">THE CULTURE OF KILLINGS </h3>
-    </p>
-    <p class="chapter-num">chapter 3 
-        <h3 class="chapter-title">THE UNDERGROUND CHANNELS </h3>
-    </p>
-    <p class="chapter-num">chapter 4 
-        <h3 class="chapter-title">COUNTDOWN TO EXTINCTION </h3>
-    </p>
-    <p class="chapter-num">chapter 5 
-        <h3 class="chapter-title">CULTIVATING HOPE </h3>
-    </p>
-    <p class="chapter-num">chapter 6 
-        <h3 class="chapter-title">THE FUTURE </h3>
-    </p>
-</div>
-
-<div class=""
+        <p class="chapter-num">chapter 2
+            <h3 class="chapter-title">THE CULTURE OF KILLINGS </h3>
+        </p>
+        <p class="chapter-num">chapter 3 
+            <h3 class="chapter-title">THE UNDERGROUND CHANNELS </h3>
+        </p>
+        <p class="chapter-num">chapter 4 
+            <h3 class="chapter-title">COUNTDOWN TO EXTINCTION </h3>
+        </p>
+        <p class="chapter-num">chapter 5 
+            <h3 class="chapter-title">CULTIVATING HOPE </h3>
+        </p>
+        <p class="chapter-num">chapter 6 
+            <h3 class="chapter-title">THE FUTURE </h3>
+        </p>
+    </div>
 
 
 

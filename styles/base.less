@@ -20,12 +20,17 @@ body {
 
 .site-container {
   line-height: 1em;
-  /*padding: 2vw;*/
 
   h1, h2, h3 {
     font-family: 'GrifinitoLMedium';
     font-weight: normal;
     line-height: 0.8em;
+  }
+
+  @media screen and (max-width: 640px) {
+    h1 {
+      font-size: 100px;
+    }
   }
 
   a {
@@ -121,12 +126,7 @@ body {
 ***************************************************/
 
 body.homepage {
-  
-  @media screen and (min-width: 1200px) {
-    .web-subtitle {
-      
-    }
-  }
+
 
 /* Welcome Text */ 
 
@@ -282,6 +282,8 @@ body.collection-type-blog.view-list {
     margin-top: 3vw;
   }
 }
+
+
 
 
 
