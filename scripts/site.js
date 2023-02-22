@@ -23,4 +23,13 @@
   // The event subscription that reloads images on resize
   window.addEventListener('resize', loadAllImages);
 
+
+  const toggleButton = document.getElementsByClassName('site-navigation'); 
+  const navBarLinks = document.getElementsByClassName('site-navigation-list');
+
+    toggleButton.style.BackgroundColor = "red"; 
+    body.style.color = "blue";
 }());
+
+
+

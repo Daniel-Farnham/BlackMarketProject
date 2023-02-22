@@ -30,6 +30,8 @@ body {
   a {
     color: rgb(204, 213, 228);
   }
+
+ 
 }
 
 
@@ -38,28 +40,38 @@ body {
   width: 100%; 
 }
 
+
+
+
 /* Site Navigation - Desktop 
 ***************************************************/
 
 /* The navigation menu */ 
+
+
 .site-navigation { 
-  padding-top: 5px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
   
+}
+
+.site-navigation i {
+  position: absolute; 
+  left: 20px;
+  top: 20px;
+  display: none; 
 }
 
 .site-navigation-list {
   width: 100%; 
+  position: relative; 
+  top: 30px; 
   display: flex;
-  /*background-color: rgb(182, 64, 188);*/ 
   
 }
 
 /* Navigation links */
 .site-navigation-item {
-  display: inline-block;
+  display: block;
   font-family: "Inter", -apple-system, BlinkMacSystemFont,
   "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
   "Fira Sans", "Droid Sans", "Helvetica Neue",;
@@ -67,11 +79,11 @@ body {
   text-transform: uppercase;
   font-size: 80%;
   margin: auto; 
+}
 
 /* Sub navigation menu */ 
 .subnav {
-  opacity: 0;
-  visibility: 1;
+  opacity: 0; 
   position: absolute; 
   top: 40px; 
   transition: opacity 0.3s ease-in-out;
@@ -81,19 +93,15 @@ body {
   border-radius: 5px; 
   border-style: solid;
   border-color: white; 
+  background-color: #131313;
   list-style-type: none; 
 
 }
 
-
 .subnav-heading:hover + .subnav, .subnav:hover {
   opacity: 1; 
   
-}
-
-
-
- 
+} 
   & + .site-navigation-item {
     margin-left: 1em;
     
@@ -116,6 +124,36 @@ body {
 
   &.active-link > a {
     text-decoration: underline;
+  }
+
+
+
+/* Site Navigation - Mobile 
+***************************************************/
+
+@media screen and (max-width: 600px) {
+  .site-navigation {
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .site-navigation i {
+    display: flex; 
+  }
+
+  .site-navigation-list {
+    display: none; 
+    width: 100%; 
+  }
+
+  .site-navigation-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .navbar-links.active {
+    display: flex; 
   }
 
 }
@@ -174,14 +212,6 @@ body.homepage {
      "Fira Sans", "Droid Sans", "Helvetica Neue";
     font-size: 30px;
     
- }
-
- #line {
-  //width: 100%; 
-  //position: relative;
-  //top: -260px;
-  //border-style: solid;
-  //border-color: green; 
  }
 
 /* Introduction */ 
