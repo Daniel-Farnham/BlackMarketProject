@@ -28,37 +28,38 @@ body {
   }
 
   a {
-    color: cornflowerblue;
-
-    &.disabled {
-      color: #ccc;
-    }
+    color: rgb(204, 213, 228);
   }
 }
 
 
 .site-header {
   margin-bottom: 4vw;
-  border:#111; 
-  border-width: 1px;
   width: 100%; 
 }
 
+/* Site Navigation - Desktop 
+***************************************************/
+
+/* The navigation menu */ 
 .site-navigation { 
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   
 }
 
 .site-navigation-list {
-  padding: 2vw;
-  display: flex; 
-  color: white; 
-  margin: auto; 
-  text-align: center;
+  width: 100%; 
+  display: flex;
+  /*background-color: rgb(182, 64, 188);*/ 
+  
 }
 
+/* Navigation links */
 .site-navigation-item {
   display: inline-block;
-  justify-content: space-evenly;
   font-family: "Inter", -apple-system, BlinkMacSystemFont,
   "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
   "Fira Sans", "Droid Sans", "Helvetica Neue",;
@@ -66,9 +67,33 @@ body {
   text-transform: uppercase;
   font-size: 80%;
   margin: auto; 
-  
-  
 
+/* Sub navigation menu */ 
+.subnav {
+  opacity: 0;
+  visibility: 1;
+  position: absolute; 
+  top: 40px; 
+  transition: opacity 0.3s ease-in-out;
+  padding: 20px; 
+  line-height: 2vh;
+  z-index: 1;
+  border-radius: 5px; 
+  border-style: solid;
+  border-color: white; 
+  list-style-type: none; 
+
+}
+
+
+.subnav-heading:hover + .subnav, .subnav:hover {
+  opacity: 1; 
+  
+}
+
+
+
+ 
   & + .site-navigation-item {
     margin-left: 1em;
     
