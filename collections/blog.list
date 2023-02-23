@@ -7,9 +7,7 @@
   <p class="filtered-by">Filtered by Tag: {@|safe}</p>
 {.end}
 
-{.if authorFilter}
-  <p class="filtered-by">Filtered by Author: {author.displayName}</p>
-{.end}
+
 
 <!-- item loop -->
 {.repeated section items}
@@ -23,7 +21,7 @@
     {.end}
     <!-- Date -->
     
-    <p> <time datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></a> by <a href="{collection.fullUrl}?author={author.id}">{author.displayName}</p>
+    <p> <time datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time> by {author.displayName}</p>
    
     <!-- post title -->
     <h1 class="title" data-content-field="title">
