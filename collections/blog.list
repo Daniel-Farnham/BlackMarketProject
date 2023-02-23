@@ -21,6 +21,10 @@
         <img {@|image-meta} />
       </a>
     {.end}
+    <!-- Date -->
+    
+    <p> <time datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></a> by <a href="{collection.fullUrl}?author={author.id}">{author.displayName}</p>
+   
     <!-- post title -->
     <h1 class="title" data-content-field="title">
       {.passthrough?}

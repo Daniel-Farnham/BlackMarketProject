@@ -3,7 +3,6 @@
 
   <!--WRAPPER-->
   <article id="post-{id}" class="{@|item-classes}" data-item-id="{id}">
-
     <!--POST TILE-->
     <h1 class="title" data-content-field="title">
       {.passthrough?}
@@ -33,10 +32,6 @@
     {.repeated section tags}
       <a class="tag" href="{collection.fullUrl}?tag={@|url-encode}">{@}</a>{.alternates with},
     {.end}
-
-    <!--SHARE AND LIKE-->
-    {@|like-button}
-    {@|social-button}
 
 
     <!--LOCATION-->
