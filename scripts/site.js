@@ -25,18 +25,26 @@
 
 
 
-  const toggleButton = document.querySelector('i.fa-bars'); 
-  const body = document.querySelector('body'); 
-  const navbarLinks = document.getElementsByClassName("site-navigation-list");
+  const hamburger = document.querySelector(".hamburger"); 
+  const navMenu = document.querySelector(".site-navigation-list")
 
-  function displayActiveClass() {
-    
-    for (let i = 0; i < navbarLinks.length; i++) {
-      navbarLinks[i].classList.toggle('active');
-    }
-  }
+  hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+  })
 
-  toggleButton.addEventListener("click", displayActiveClass); 
+  /*
+  document.querySelectorAll(".site-navigation-list").forEach(n => n.addEventListener("click"), () => {
+    hamburger.classList.remove("active");
+  })
+  */
+
+  const subnavHeading = document.querySelector(".subnav-heading"); 
+  const subnav = document.querySelector(".subnav");
+
+  subnavHeading.addEventListener("click", () => {
+    subnav.classList.toggle("active");
+  })
 
 }());
 
