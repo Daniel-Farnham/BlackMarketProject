@@ -24,12 +24,21 @@
   window.addEventListener('resize', loadAllImages);
 
 
-  const toggleButton = document.getElementsByClassName('site-navigation'); 
-  const navBarLinks = document.getElementsByClassName('site-navigation-list');
 
-    toggleButton.style.BackgroundColor = "red"; 
-    body.style.color = "blue";
+  const toggleButton = document.querySelector('i.fa-bars'); 
+  const body = document.querySelector('body'); 
+  const navbarLinks = document.getElementsByClassName("site-navigation-list");
+
+  function displayActiveClass() {
+    
+    for (let i = 0; i < navbarLinks.length; i++) {
+      navbarLinks[i].classList.toggle('active');
+    }
+  }
+
+  toggleButton.addEventListener("click", displayActiveClass); 
+
 }());
 
-
+ 
 
