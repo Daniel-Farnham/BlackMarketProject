@@ -4,7 +4,7 @@
   <!--WRAPPER-->
   <article id="post-{id}" class="{@|item-classes}" data-item-id="{id}">
     <!--POST TILE-->
-    <h1 class="title" data-content-field="title">
+    <h1 class="blog-item-title" class="title" data-content-field="title">
       {.passthrough?}
         <a href="{sourceUrl}" target="_blank">{title}</a>
       {.or}
