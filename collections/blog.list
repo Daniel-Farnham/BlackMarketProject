@@ -34,7 +34,7 @@
     <!-- excerpt or body -->
     {.if excerpt}
       {excerpt}
-      <a class="link" href="{fullUrl}">Read More</a>
+      <a class="blog-link" class="link" href="{fullUrl}">Read More</a>
     {.or}
       {body}
     {.end}
