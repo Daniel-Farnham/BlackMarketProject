@@ -24,25 +24,6 @@
   window.addEventListener('resize', loadAllImages);
 
 
-
-  const hamburger = document.querySelector(".hamburger"); 
-  const navMenu = document.querySelector(".site-navigation-list")
-
-  hamburger.addEventListener("click", () => {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-  })
-
- 
-
-  const subnavHeading = document.querySelector(".subnav-heading"); 
-  const subnav = document.querySelector(".subnav");
-
-  subnavHeading.addEventListener("click", () => {
-    subnav.classList.toggle("active");
-    console.log("hello-world");
-  })
-
 }());
 
  
