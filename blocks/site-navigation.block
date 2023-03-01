@@ -48,6 +48,7 @@
     <span class="bar"></span>
     <span class="bar"></span>
   </div>
+  <squarespace:script src="site.js" combo="true"/>
 </nav>
 
-<squarespace:script src="site.js" combo="true"/>
+
