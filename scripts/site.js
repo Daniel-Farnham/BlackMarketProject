@@ -33,17 +33,14 @@
     navMenu.classList.toggle("active");
   })
 
-  /*
-  document.querySelectorAll(".site-navigation-list").forEach(n => n.addEventListener("click"), () => {
-    hamburger.classList.remove("active");
-  })
-  */
+ 
 
   const subnavHeading = document.querySelector(".subnav-heading"); 
   const subnav = document.querySelector(".subnav");
 
   subnavHeading.addEventListener("click", () => {
     subnav.classList.toggle("active");
+    console.log("hello-world");
   })
 
 }());
