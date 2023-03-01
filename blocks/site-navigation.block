@@ -50,4 +50,4 @@
   </div>
 </nav>
 
-<squarespace:script src="site.js" combo="{.if authenticatedAccount}false{.or}true{.end}"/>
+<squarespace:script src="site.js" combo="true"/>
