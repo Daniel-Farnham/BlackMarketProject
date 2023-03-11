@@ -1,6 +1,5 @@
 <!-- navbar -->
 <nav class="site-navigation">
-  <i class="fa fa-bars"></i>
   <!-- nav menu -->
   <ul class="site-navigation-list">
     {.repeated section items}
