@@ -42,9 +42,9 @@
     </li>
     {.end}
     <div class="social-icons"> 
-      <a href="www.instagram.com/blackmarketwildlife"><i class="fa-brands fa-instagram"></i></a>
-      <a href="mailto: contact@blackmarketproject.com"><i class="fa-solid fa-envelope"></i></a>
-      <a href="https://www.facebook.com/profile.php?id=100090038984689"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="www.instagram.com/blackmarketwildlife"><i class="fa-brands fa-instagram fa-2x"></i></a>
+      <a href="mailto: contact@blackmarketproject.com"><i class="fa-solid fa-envelope fa-2x"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=100090038984689"><i class="fa-brands fa-facebook-f fa-2x"></i></a>
     </div>
   </ul>
   <div class="hamburger">
