@@ -47,11 +47,6 @@
     <span class="bar"></span>
     <span class="bar"></span>
   </div>
-  <div class="social-icons"> 
-    <i class="fa-brands fa-instagram fa-2x"></i>
-    <i class="fa-brands fa-facebook-f fa-2x"></i>
-    <i class="fa-solid fa-envelope fa-2x"></i>
-  </div> 
   <squarespace:script src="site.js" combo="true"/>
 </nav>
 
