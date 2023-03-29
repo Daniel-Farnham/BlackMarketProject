@@ -2,7 +2,7 @@
 <nav class="site-navigation">
   <!-- nav menu -->
   <ul class="site-navigation-list">
-    <div>hello world</div>
+    
     {.repeated section items}
 
       <!-- nav item -->
@@ -41,7 +41,7 @@
 
     </li>
     {.end}
-
+    <h1>hello world</h1>
   </ul>
   <div class="hamburger">
     <span class="bar"></span>
