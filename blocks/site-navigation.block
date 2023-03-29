@@ -7,8 +7,7 @@
       <!-- nav item -->
       <li class="site-navigation-item" class="{.section active} active-link{.end}
       {.if folderActive} active-link active-folder{.end}">
-      <h1>test</h1>
-
+      
       {.folder?}
 
         <a class="subnav-heading">{collection.navigationTitle}</a>
@@ -48,6 +47,9 @@
     <span class="bar"></span>
     <span class="bar"></span>
   </div>
+  <div> 
+    <h1>test</h1>
+  </div> 
   <squarespace:script src="site.js" combo="true"/>
 </nav>
 
