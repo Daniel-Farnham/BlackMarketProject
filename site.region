@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="//db.onlinewebfonts.com/c/726928c52ecaa80f68c70a2476abb32c?family=Grifinito+L+Medium" rel="stylesheet" type="text/css"/>
+    <script src="https://kit.fontawesome.com/241e633b57.js" crossorigin="anonymous"></script>
 
     <!-- include system scripts, page meta, and header code injection -->
     {squarespace-headers}
